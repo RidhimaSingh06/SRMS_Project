@@ -52,7 +52,7 @@ float calculateCGPA(int marks){ return marks/10.0; }
 float calculatePercentage(int marks){ return marks; }
 
 void displayHeader() {
-    setColor(14); printf("\n===========================================\n");
+    setColor(7); printf("\n===========================================\n");
     printf("       STUDENT RESULT MANAGEMENT SYSTEM   \n");
     printf("===========================================\n\n"); setColor(7);
 }
